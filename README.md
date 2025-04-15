@@ -85,10 +85,10 @@ http://localhost:5000
 
 Here are some screenshots to demonstrate the application:
 
-### Example of Real News Prediction:
+### Example of Fake News Prediction:
 ![Real News Prediction](first.jpg)
 
-### Example of Fake News Prediction:
+### Example of Real News Prediction:
 ![Fake News Prediction](second.jpg)
 
 ---
