@@ -41,10 +41,6 @@ Project NEWS/
 ## 🚀 How to Run
 
 1. Clone this repository:
-    
-bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
 
 
 2. Install dependencies:
@@ -90,10 +86,10 @@ http://localhost:5000
 Here are some screenshots to demonstrate the application:
 
 ### Example of Real News Prediction:
-![Real News Prediction](path/to/real_news_image.png)
+![Real News Prediction](first.jpg)
 
 ### Example of Fake News Prediction:
-![Fake News Prediction](path/to/fake_news_image.png)
+![Fake News Prediction](second.jpg)
 
 ---
 
