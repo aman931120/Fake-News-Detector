@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Truth Times</title>
+  <style>
+    body {
+      background-color: #9b7d7d;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      background-color: #ccc;
+      padding: 20px;
+      margin: 0;
+      font-size: 2.5rem;
+      border-bottom: 3px solid #0275d8;
+    }
+
+    .news-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .news-card {
+      background-color: #d3d3d3;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .news-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      background-color: #e0e0e0;
+    }
+
+    .news-card h3 {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    .label {
+      font-weight: bold;
+      margin-right: 5px;
+    }
+
+    .real {
+      background-color: limegreen;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 5px;
+    }
+
+    .fake {
+      background-color: red;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 5px;
+    }
+
+    .news-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.news-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.label-real {
+  color: green;
+  font-weight: bold;
+}
+
+.label-fake {
+  color: red;
+  font-weight: bold;
+}
+
+.label-unknown {
+  color: gray;
+  font-weight: bold;
+}
+
+  </style>
+</head>
+<body>
+
+  <h1>The Truth Times</h1>
+
+  <div id="newsContainer" class="news-container"></div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
