@@ -102,13 +102,5 @@ Here are some screenshots to demonstrate the application:
 
 ## 💻 Author
 
-Your Name  
-[GitHub](https://github.com/yourusername)  
+Aman Kumar
 
----
-
-## 📢 License
-
-This project is open-source under the MIT License.
-
-i want to add 2 pictures for demo 
